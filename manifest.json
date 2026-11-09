@@ -1,0 +1,25 @@
+{
+  "instance_id": "1bffcb06513d",
+  "known_first_weight": 6,
+  "target_indices": [
+    1,
+    2,
+    3
+  ],
+  "centers": [
+    6,
+    18,
+    30,
+    42,
+    54,
+    66,
+    78,
+    90,
+    102
+  ],
+  "width": 32,
+  "zero_point": 0,
+  "bias": 0,
+  "gain": 1,
+  "note": "Synthetic untrained kernel; nonzero targets; int8 operands; exact int32 accumulation."
+}
