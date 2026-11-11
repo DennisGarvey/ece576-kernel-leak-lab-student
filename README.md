@@ -11,13 +11,24 @@ If you're unsure which track to choose, start with the advanced notebook. If you
 
 Clone the student repository or select **Code → Download ZIP** on GitHub and extract the files. Open the project directory in a terminal and run the following commands with Python 3.10 or newer.
 
+### Windows (PowerShell)
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m jupyterlab
+```
+
+### macOS and Linux
+
 ```sh
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
+python -m jupyterlab
 ```
 
-Start JupyterLab with `python -m jupyterlab` and open the notebook you chose. Keep the notebook in this directory so it can load `manifest.json` and `packets/`.
+In JupyterLab, open the notebook you chose. Keep the notebook in the project directory so it can load `manifest.json` and `packets/`.
 
 ## Run and submit
 
