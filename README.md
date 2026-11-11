@@ -1,9 +1,11 @@
 # Kernel Leak Lab
 
-Use Correlation Power Analysis to recover three weights from WPInference power traces. Choose either notebook.
+Both notebooks use Correlation Power Analysis to recover the same three model weights from WPInference power traces. Choose the track that fits your coding experience.
 
-- `Kernel_Leak_Lab.ipynb` provides the calculations and plots for the beginner lab.
-- `Kernel_Leak_Lab_Advanced.ipynb` specifies the calculations, plots, and explanations to produce for the advanced lab.
+- **Beginner** (`Kernel_Leak_Lab.ipynb`) provides more code, including the calculations and plots, so you can focus on interpreting the results.
+- **Advanced** (`Kernel_Leak_Lab_Advanced.ipynb`) asks you to write the analysis and plotting code. Choose this track if you have prior coding experience and are comfortable writing Python.
+
+If you're unsure which track to choose, start with the advanced notebook. If you get stuck, look at the beginner notebook for hints or switch to it for a more guided experience.
 
 ## Set up
 
